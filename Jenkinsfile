@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        NODEJS_HOME = tool name: 'NodeJS 23' // Replace 'NodeJS' with your Jenkins Node.js installation name
+        NODEJS_HOME = tool name: 'NodeJS 23' 
         SONAR_SCANNER_PATH = '/Users/senthilvelmuthupandy/Downloads/sonar-scanner-6.2.1.4610-macosx-aarch64/bin'
         PATH = "${NODEJS_HOME}/bin:${SONAR_SCANNER_PATH}:${env.PATH}"
     }
@@ -10,19 +10,19 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                checkout scm // Automatically checks out the repository configured in the Jenkins job
+                checkout scm 
             }
         }
 
         stage('Install Dependencies') {
             steps {
-                sh 'npm install --prefix client' // Install frontend dependencies
+                sh 'npm install --prefix client' 
             }
         }
 
         stage('SonarQube Analysis') {
             environment {
-                SONAR_TOKEN = credentials('sonar-token') // Use credentials for the SonarQube token
+                SONAR_TOKEN = credentials('sonar-token') 
             }
             steps {
                 sh '''
@@ -35,11 +35,11 @@ pipeline {
             }
         }
 
-        stage('Start Application') {
-            steps {
-                sh 'npm run dev --prefix client' // Start the application in development mode
-            }
-        }
+        // stage('Start Application') {
+        //     steps {
+        //         sh 'npm run dev --prefix client' 
+        //     }
+        // }
     }
 
     post {
