@@ -25,7 +25,6 @@ A full-stack reservation booking system built using the MERN stack (MongoDB, Exp
 - Express.js
 - MongoDB (Mongoose)
 - JWT Authentication
-- Bcrypt for password hashing
 
 ---
 
@@ -58,3 +57,11 @@ A full-stack reservation booking system built using the MERN stack (MongoDB, Exp
 ## Screenshots
 
 ![Main Page](./screenshots/main-page.png)
+
+![About Page](./screenshots/about-page.png)
+
+![Dish Page](./screenshots/dish-page.png)
+
+![Reservation Page](./screenshots/reservation-page.png)
+
+
