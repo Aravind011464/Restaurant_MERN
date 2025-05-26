@@ -1,6 +1,6 @@
 # 🏨 MERN Reservation Booking System
 
-A full-stack reservation booking system built using the MERN stack (MongoDB, Express, React, Node.js). This system allows users to register, browse available listings, and make reservations for rooms, venues, or services. 
+A full-stack reservation booking system built using the MERN stack (MongoDB, Express, React, Node.js). This system allows users to register and make reservations. 
 
 ## 🚀 Features
 
