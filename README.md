@@ -64,4 +64,32 @@ A full-stack reservation booking system built using the MERN stack (MongoDB, Exp
 
 ![Reservation Page](./screenshots/reservation-page.png) 
 
+## 🛠️ Installation Guide
+
+Follow these steps to set up and run the MERN Reservation Booking System locally.
+
+### 📦 Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14+ recommended)
+- [MongoDB](https://www.mongodb.com/) (running locally or via Atlas)
+- [Git](https://git-scm.com/)
+
+---
+
+### 🚀 Steps to Run Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Aravind011464/Restaurant_MERN.git
+cd Restaurant_MERN
+```
+
+### Client 
+```bash
+cd ../client
+npm install
+npm start
+```
 
