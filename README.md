@@ -18,7 +18,7 @@ A full-stack reservation booking system built using the MERN stack (MongoDB, Exp
 - React.js
 - React Router
 - Axios
-- Bootstrap / Tailwind CSS (choose one)
+- CSS
 
 **Backend:**
 - Node.js
