@@ -53,3 +53,8 @@ A full-stack reservation booking system built using the MERN stack (MongoDB, Exp
 │   └── package.json     # React dependencies
 │
 └── README.md
+---
+
+## Screenshots
+
+![Main Page](./Screenshots/Screenshot 2025-05-26 at 9.55.17 PM.png)
