@@ -2,12 +2,6 @@
 
 A full-stack reservation booking system built using the MERN stack (MongoDB, Express, React, Node.js). This system allows users to register, browse available listings, and make reservations for rooms, venues, or services.
 
-## 🌐 Live Demo
-
-[Live Link](https://your-deployment-link.com) — *optional*
-
----
-
 ## 🚀 Features
 
 ### 👤 User Features
@@ -46,7 +40,7 @@ A full-stack reservation booking system built using the MERN stack (MongoDB, Exp
 ```bash
 /mern-reservation-app
 │
-├── backend
+├── server
 │   ├── config/          # DB connection & config
 │   ├── controllers/     # Logic for routes
 │   ├── middleware/      # Auth middleware
@@ -55,7 +49,7 @@ A full-stack reservation booking system built using the MERN stack (MongoDB, Exp
 │   ├── .env             # Environment variables
 │   └── server.js        # Entry point for backend
 │
-├── frontend
+├── client
 │   ├── public/
 │   ├── src/
 │   │   ├── components/  # Reusable components
